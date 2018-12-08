@@ -11,6 +11,10 @@ IMAGE_INSTALL_append += " \
 	tslib-tests \
 	ttf-bitstream-vera \
 	gstreamer1.0-plugins-base-alsa \
+	wayland \
+	weston \
+	weston-init \
+	weston-examples \
 	wpebackend \
 	wpebackend-rdk \
 	wpelauncher \
