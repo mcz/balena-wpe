@@ -3,6 +3,10 @@ include recipes-core/images/core-image-minimal.bb
 IMAGE_FSTYPES = "tar.gz"
 
 IMAGE_INSTALL_append += " \
+	wayland \
+	weston \
+	weston-init \
+	weston-examples \
 	fbcp \
 	fontconfig \
 	fontconfig-utils \
