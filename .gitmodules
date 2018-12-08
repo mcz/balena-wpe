@@ -4,8 +4,8 @@
 	branch = morty
 [submodule "base-image/poky"]
 	path = base-image/poky
-	url = git://git.yoctoproject.org/poky
-	branch = morty
+	url = git@github.com:mcz/poky.git
+	branch = wpe
 [submodule "base-image/meta-wpe"]
 	path = base-image/meta-wpe
 	url = https://github.com/WebPlatformForEmbedded/meta-wpe
