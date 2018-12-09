@@ -11,8 +11,6 @@ IMAGE_INSTALL_append += " \
 	tslib-tests \
 	ttf-bitstream-vera \
 	gstreamer1.0-plugins-base-alsa \
-	libxkbcommon \
-	wayland \
 	weston \
 	weston-init \
 	weston-examples \
