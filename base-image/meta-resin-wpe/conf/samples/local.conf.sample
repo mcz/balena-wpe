@@ -3,7 +3,7 @@
 #MACHINE ?= "raspberrypi2"
 #MACHINE ?= "raspberrypi3"
 
-MACHINE ?= "genericx86-64"
+MACHINE = "genericx86-64"
 
 PREFERRED_PROVIDER_virtual/kernel_forcevariable = "linux-dummy"
 
