@@ -25,8 +25,6 @@ IMAGE_INSTALL_append += " \
 	wpebackend \
 	wpewebkit-web-inspector-plugin \
 	wpelauncher \
-	wpeframework \
-	wpeframework-ui \
 	"
 #	wpebackend-rdk
 

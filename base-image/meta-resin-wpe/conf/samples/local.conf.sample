@@ -27,5 +27,5 @@ DISTRO_FEATURES_remove = "x11"
 DISTRO_FEATURES_append = "wayland opengl"
 
 # WPE_BACKEND = "rpi libinput wayland westeros virtualinput wpeframework libinput-udev"
-WPE_BACKEND = "wayland wpeframework libinput"
+WPE_BACKEND = "wayland libinput"
 # WPE_PLATFORM = "westeros"
