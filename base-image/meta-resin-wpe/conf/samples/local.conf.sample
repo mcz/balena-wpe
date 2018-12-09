@@ -1,7 +1,7 @@
 # Supported machines
 #MACHINE ?= "raspberrypi"
 #MACHINE ?= "raspberrypi2"
-#MACHINE ?= "raspberrypi3"
+MACHINE ?= "raspberrypi3"
 
 PREFERRED_PROVIDER_virtual/kernel_forcevariable = "linux-dummy"
 
@@ -24,7 +24,8 @@ PATCHRESOLVE = "noop"
 CONF_VERSION = "1"
 
 DISTRO_FEATURES_remove = "x11"
-DISTRO_FEATURES_append = " opengl"
+DISTRO_FEATURES_append = "wayland opengl"
 
-WPE_BACKEND = "rpi libinput"
-WPE_PLATFORM = "egl"
+# WPE_BACKEND = "rpi libinput wayland westeros virtualinput wpeframework libinput-udev"
+WPE_BACKEND = "wayland libinput"
+WPE_PLATFORM = "westeros"
