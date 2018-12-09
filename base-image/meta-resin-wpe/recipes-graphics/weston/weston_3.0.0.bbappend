@@ -3,4 +3,4 @@ EXTRA_OECONF_append = "--disable-simple-dmabuf-drm-client"
 
 PACKAGECONFIG[rdp] = "--enable-rdp-compositor,--disable-rdp-compositor,freerdp"
 
-PACKAGECONFIG_append = "kms wayland fbdev rdp"
+PACKAGECONFIG_append = " kms wayland fbdev rdp"
