@@ -9,7 +9,6 @@ BBLAYERS ?= " \
   ${TOPDIR}/../poky/meta \
   ${TOPDIR}/../poky/meta-poky \
   ${TOPDIR}/../poky/meta-yocto-bsp \
-  ${TOPDIR}/../meta-raspberrypi \
   ${TOPDIR}/../meta-wpe \
   ${TOPDIR}/../meta-resin-wpe \
   ${TOPDIR}/../meta-openembedded/meta-oe \
@@ -18,3 +17,4 @@ BBLAYERS ?= " \
   ${TOPDIR}/../meta-openembedded/meta-networking \
   ${TOPDIR}/../meta-openembedded/meta-webserver \
   "
+#  ${TOPDIR}/../meta-raspberrypi
