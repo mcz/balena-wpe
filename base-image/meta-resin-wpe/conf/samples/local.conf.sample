@@ -4,6 +4,7 @@
 #MACHINE ?= "raspberrypi3"
 
 MACHINE = "genericx86-64"
+MACHINE_FEATURES_remove = "efi"
 
 PREFERRED_PROVIDER_virtual/kernel_forcevariable = "linux-dummy"
 
