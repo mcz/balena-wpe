@@ -9,7 +9,6 @@ IMAGE_FSTYPES = "tar.gz"
 # https://github.com/WebPlatformForEmbedded/meta-wpe/blob/2adec1aad29fd82e4d5ea42cb03a4846ff2b4493/recipes-core/packagegroups/packagegroup-wpewebkit.bb
 
 IMAGE_INSTALL_append += " \
-	fbcp \
 	fontconfig \
 	fontconfig-utils \
 	sthttpd \
