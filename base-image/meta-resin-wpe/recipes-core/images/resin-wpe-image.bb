@@ -28,6 +28,6 @@ IMAGE_INSTALL_append += " \
 	wpeframework \
 	wpeframework-ui \
 	"
-#	wpebackend-rdk \
+#	wpebackend-rdk
 
 VIRTUAL-RUNTIME_init_manager="busybox"
